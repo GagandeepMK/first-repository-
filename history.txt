@@ -1,0 +1,999 @@
+    1  vi while.sh
+    2  cd shell_scripting
+    3  ls -lrt
+    4  vi while.sh
+    5  pwd
+    6  cd linux_command
+    7  ls
+    8   cd /home/ec2-user/
+    9  ls -lrt
+   10  rm -rf dir7
+   11  rm -rf touch
+   12  rm -rf file1.pdf
+   13  rm -rf dir4
+   14  rm -rf dir9
+   15  rm -rf file1
+   16  rm -rf dir66
+   17  rm -rf B
+   18  rm -rf dir34
+   19  ls -lrt
+   20  cd dir1
+   21  ls
+   22  cd shell_scripting
+   23  cd shell_scripting
+   24  cd ..
+   25  cd shell_scripting
+   26  l;s
+   27  ls
+   28  ls
+   29  rm b
+   30  rm -rf b
+   31  rm -rf dir101
+   32  rm -rf dir2
+   33  sudo su
+   34  cd shell_scripting
+   35  ls -lrt
+   36  cp read.sh /home/ec2-user/dir1
+   37  ls -lrt
+   38  cd ..
+   39  ls
+   40  pwd
+   41  cd dir1
+   42  pwd
+   43  cd shell_scripting
+   44  cd ..
+   45  cd shell_scripting
+   46  cp read_print.sh /home/ec2-user/dir1
+   47  cd ..
+   48  mkdir dir2
+   49  cp -r dir2 /home/ec2-user/dir1
+   50  cd dir1
+   51  ls -lrt
+   52  rm -r dir2
+   53  cd ..
+   54  cd -
+   55  cd shell_scripting
+   56  cd 
+   57  cd shell_scripting
+   58  cd ..
+   59  cd dir1
+   60  mv read_ptint.sh /home/ec2-user/shell_scripting/read.sh
+   61  mv read_print.sh /home/ec2-user/shell_scripting/read.sh
+   62  cd ..
+   63  cd shell_scripting
+   64  ls -lrt
+   65  mkdir dir1
+   66  mv dir1 /home/ec2-user/dir2/dir11
+   67  cd ..
+   68  cd dir2
+   69  ls
+   70  rm -rf dir11
+   71  cd ../..
+   72  cd /home/ec2-user/
+   73  pwd
+   74  wc read.sh
+   75  cd shell_scripting
+   76  wc read.sh
+   77  wc -l read.sh
+   78  wc -c read.sh
+   79  wc -w read.sh
+   80  cd dir1
+   81  ls
+   82  deep1
+   83  cat deep1
+   84  vi deep1
+   85  cat deep1
+   86  grep "like" deep1
+   87  grep -i "Resource " deep1
+   88  egrep "Resource " process" "smooth" deep1
+   89  egrep "Resource " process" "smooth" deep1
+   90  egrep "Resource " " process" "smooth" deep1
+   91  grep -e process" -e "smooth" deep1
+   92  grep -e "process" -e "smooth" deep1
+   93  egrep "process" "smooth" deep1
+   94  egrep "process" deep1
+   95  egrep -i "Resource" deep1
+   96  cd dir1 && deep1
+   97  cd dir1
+   98  cd ..
+   99  cd dir1
+  100  cat deep1
+  101  cd ..
+  102  cd /home/ec2-user/dir1/deep1
+  103  cd dir1
+  104  ls
+  105  cat deep1
+  106  cd shell_scripiting
+  107  ls
+  108  cd shell_scripting
+  109  cd ..
+  110  cd dir1
+  111  sh
+  112  cd shell_scripting
+  113  cd ..
+  114  cd dir11
+  115  cd dir1
+  116  ls -lrt
+  117  cat deep1
+  118  grep -l -R "bent" 
+  119  grep -w "bent" deep1
+  120  grep -w "pr" deep1
+  121  grep -w "process" deep1
+  122  grep
+  123  cd dir1
+  124  cat deep1
+  125  grep -i "^Resource" deep1
+  126  cd dir1
+  127  cat deep1
+  128  grep "areas$" deep1
+  129  grep -v "areas" deep1
+  130  grep -v "ideas" deep1
+  131  grep "knowledge" deep1
+  132  grep -w "knowledge deep1
+  133  grep -c "knowledge" deep1
+  134  grep -w "knowledge" deep1
+  135  grep -l "knowledge" deep1
+  136  cd dir1
+  137  ls 
+  138  cat deep1
+  139  cd shell_scripting
+  140  ls -lrt
+  141  vi age_morethan_30.sh
+  142  cd shell_scripting
+  143  pwd
+  144  ls -lrt
+  145  mkdir examples_trail
+  146  ls -lrt
+  147  cd examples_trail
+  148  vi exapmle.sh
+  149  sh example.sh
+  150  ./example.sh
+  151  cat example.sh
+  152  ls -lrt
+  153  cat exapmle.sh
+  154  sh exapmle.sh
+  155  ls 
+  156  cd dir2
+  157  ls 
+  158  vi if_else.sh
+  159  sh if_else.sh
+  160  vi if_else2.sh
+  161  sh if_else2.sh
+  162  rm is_else.sh
+  163  rm if_else.sh
+  164  rm if_else2.sh
+  165  cd dir1
+  166  ls -lt
+  167  cd ../dir2
+  168  ls -lt
+  169  vi ascending_order.sh
+  170  sh ascending_order.sh
+  171  vi ascending_order.sh
+  172  sh ascending_order.sh
+  173  vi ascending_order.sh
+  174  sh ascending_order.sh
+  175  vi ascending_order.sh
+  176  sh ascending_order.sh
+  177  vi ascending_order.sh
+  178  sh ascending_order.sh
+  179  vi ascending_order.sh
+  180  sh ascending_order.sh
+  181  vi ascending_order.sh
+  182  sh ascending_order.sh
+  183  vi wokr.sh
+  184  vi ascending_order.sh
+  185  vi wokr.sh
+  186  sh wokr.sh
+  187  cat ascending_order.sh
+  188  cat work.sh
+  189  cat wokr.sh
+  190  vi ascending_order.sh
+  191  sh ascending_order.sh
+  192  set -x 
+  193  set -x sh asecending_order.sh
+  194  vi ascending_order.sh
+  195  sh ascending_order.sh
+  196  vi wokr.sh
+  197  sh wokr.sh
+  198  cat wokr.sh
+  199  vi wokr.sh
+  200  sh wokr.sh
+  201  vi wokr.sh
+  202  ls-lrt'
+  203  cd ..
+  204  cat wokr.sh
+  205  cd dir2
+  206  ls
+  207  ls -lrt
+  208  vi reverse_string.sh
+  209  sh reverse_string.sh
+  210  cat reverse_string.sh
+  211  vi reverse_string.sh
+  212  sh reverse_string.sh
+  213  cat reverse_string.sh
+  214  vi reverse_string.sh
+  215  sh reverse_string.sh
+  216  vi reverse_string.sh
+  217  sh reverse_string.sh
+  218  vi reverse_string.sh
+  219  sh reverse_string.sh
+  220  vi reverse_string.sh
+  221  sh reverse_string.sh
+  222  vi reverse_string.sh
+  223  rm reverse_string.sh
+  224  vi reverse_string.sh
+  225  sh reverse_string.sh
+  226  vi reverse_string.sh
+  227  sh reverse_string.sh
+  228  cd dir2
+  229  ls -lrt
+  230  vi age.sh
+  231  sh age.sh
+  232  vi age.sh
+  233  sh age.sh
+  234  vi age.sh
+  235  sh age.sh
+  236  vi age.sh
+  237  sh age.sh
+  238  cd dir2
+  239  ls -lrt
+  240  sh age.sh
+  241  vi age.sh
+  242  vi add.sh
+  243  sh add.sh
+  244  vi add.sh
+  245  sh add.sh
+  246  vi add.sh
+  247  sh add.sh
+  248  vi add.sh
+  249  sh add.sh
+  250  vi add.sh
+  251  sh add.sh
+  252  vi add.sh
+  253  sh add.sh
+  254  vi add.sh
+  255  sh add.sh
+  256  vi add.sh
+  257  sh add.sh
+  258  vi add.sh
+  259  ls -lrt
+  260  vi if.sh
+  261  sh if.sh
+  262  vi if.sh
+  263  sh if.sh
+  264  vi if.sh
+  265  sh if.sh
+  266  vi if.sh
+  267  cd dir2
+  268  ls -lrt
+  269  cd ../dir1
+  270  ls -lrt
+  271  cat deep1
+  272  grep -l "mgmt" deep1
+  273  grep -w "mgmt" deep1
+  274  grep -i "^" deep1
+  275  grep -i "^Works" deep1
+  276  grep "process$" deep1
+  277  grep -e "with" -e "like" deep1
+  278  egrep "with" -e "like" deep1
+  279  egrep "with" "like" deep1
+  280  head -2 deep1
+  281  head -1 deep1
+  282  vi deep1
+  283  less deep1
+  284   head -5 | tail -1
+  285   head -5 | tail -1 deep1
+  286  cat deep1
+  287  head deep1
+  288  tail -2
+  289  tail -2 deep1
+  290  tail -4
+  291  tail -4 deep1
+  292  head -6 | tail -1 deep1
+  293  head -8 deep1 | tail -1
+  294  head -2 deep1 | tail -8
+  295  cat deep1
+  296  head -8 deep1 | tail -6
+  297  vi deep1
+  298  head -7 deep1 | tail -2
+  299  head -7 deep1 | tail -3
+  300  tail -7 deep1 
+  301  tail -7 deep1 | head -3
+  302  vi ht
+  303  cat ht
+  304  tail -9 ht | head -1
+  305  head -10 ht | tail -1
+  306  head -10 ht | tail -9
+  307  head -9 ht | tail -9
+  308  cat ht
+  309  head -5 ht | tail -7
+  310  head -5 ht | tail -8
+  311  head -5 ht | tail -6
+  312  head -5 ht | tail -2
+  313  cat ht
+  314  tail -4 ht
+  315  vi ht
+  316  tail -4 ht
+  317  tail -6 ht | head -4
+  318  head -9 ht | tail -1 | wc -c
+  319  head -8 ht | tail -1 | wc -c
+  320  cat ht
+  321  head -8 ht
+  322  tail -1
+  323  cd dir2
+  324  ls 
+  325  cd ../dir1
+  326  ls
+  327  cat h
+  328  cat ht
+  329  tail -5 ht | head -2
+  330  cat ht
+  331  sed 's/linux/gagan/g' ht
+  332  cat ht
+  333  sed -i 's/linux/gagan/g' ht
+  334  cat ht
+  335  sed  '2s/unix/deep/g' ht
+  336  sed -i '2s/unix/deep/g' ht1
+  337  sed -i '2s/unix/deep/g' ht
+  338  cat ht
+  339  sed -i '2,5s/unix/deep/g' ht
+  340  cat ht
+  341  cd ../dir2
+  342  cat deep1
+  343  ls
+  344  cd ../dir1
+  345  cat deep1
+  346  vi deep1
+  347  cat deep1
+  348  sed '2s/low/gagan/g' deep1
+  349  vi deep1
+  350  sed '2,5s/month/gagan/g' deep1
+  351  sed '$s/your/gagan/g' deep1
+  352  sed '2d' deep1
+  353  sed '7d' deep1
+  354  cat deep1
+  355  vi deep1
+  356  vi ht
+  357  sed '2d' ht
+  358  cat ht
+  359  sed '2d' ht
+  360  cd dir1
+  361  la
+  362  ls
+  363  cat ht
+  364  sed '2,5' ht
+  365  sed '2,5d' ht
+  366  sed '$d' ht
+  367  sed -n '3p' ht
+  368  sed -n '1,3p' ht
+  369  sed -n '2,$p' ht
+  370  cd dir2
+  371  ls
+  372  cd ../dir1
+  373  ls -lrt
+  374  touch file{1..4}
+  375  ls -lrt
+  376  ls -lrt | cut -d " " -f 1,2
+  377  ls -lrt | cut -d " " -f 1
+  378  ls -lrt | cut -d " " -f 1,2,3
+  379  ls -lrt | cut -d " " -f 1 | head -1
+  380  ls -lrt | cut -d " " -f 1,2,3
+  381  ls -lrt | cut -d " " -f 1,2,3 | tail -7
+  382  ls -lrt | cut -d " " -f 2
+  383  ls -lrt | cut -d " " -f 2 | tail -7
+  384  vi exel
+  385  cut -d " " -f 1 exel
+  386  cut -d "    " -f 1 exel
+  387  awk -F " " '{print $1}' exel
+  388  awk -F " " '{print $1,2,3,4} exel | head -1
+  389  awk -F " " '{print $1,2,3}' | head -
+  390  awk -F " " '{print $1,2,3}' exel | head -1
+  391  awk -F " " '{print $1,2,3}' exel | tail -4
+  392  awk -F " " '{print $1,2,3,4}' exel | tail -4
+  393  tail -4 | awk -F " " '{print $1,}' exel
+  394  tail -4 exel
+  395  tail -5 exel
+  396  cat exel
+  397  head -1
+  398  head -1 exel
+  399  ls -lrt
+  400  ls -lrt | cut -d " " -f 8
+  401  ls -lrt | awk -F " " '{print $8}'
+  402  cd dir1
+  403  ls -lrt
+  404  cat exel
+  405  awk -F " " '{print $3}' exel
+  406  ls -lrt
+  407  ls -lrt | awk -F " " '{print $2}' | tail -8
+  408  ls -lrt | awk -F " " '{print $1}' | tail -8
+  409  ls -lrt | awk -F " " '{print $(NF-1)}'
+  410  ls -lrt | awk -F " " '{print $(NF-3)}'
+  411  ls -lrt | awk -F " " '{print $(NF-2)}'
+  412  ls -lrt | awk -F " " '{print $(NF)}'
+  413  cd dir1
+  414  cd dir1
+  415  ls -lrt
+  416  find -name "deep1"
+  417  cd ..
+  418  find -name "deep1"
+  419  cd dir1
+  420  touch Gagan
+  421  cd ..
+  422  find -iname "Gagan"
+  423  find -name "Gagan"
+  424  find -type f -mtime -90
+  425  find -type f -mtime -10
+  426  find -type f -mtime +10
+  427  find -type f -mmin +5
+  428  find -type f -mmin -5
+  429  find -type f -mmin -90
+  430  find -type f -mtime -2
+  431  find -type f -empty
+  432  find -type f -perm 777
+  433  find -type f -perm 776
+  434  find . -type f -perm 776
+  435  find . -type f -perm 0776
+  436  find . -type f -empty
+  437  cd dir1
+  438  ls -lrt
+  439  find . -maxdepth3 -type f -empty
+  440  find . -maxdepth1
+  441  find -maxdepth1
+  442  find .-type -f -empty
+  443  find . -type ! -empty
+  444  find . -type -empty
+  445  find . -type f -empty
+  446  find . -type f  -empty
+  447  find . -type f ! -empty
+  448  cd ..
+  449  -maxdepth1
+  450  find . -maxdepth 1 -type -ht
+  451  find . -maxdepth 1 -type -empty
+  452  find -maxdepth 1 -type -empty
+  453  find -maxdepth 1 -type f -empty
+  454  find -maxdepth 2 -type f -empty
+  455  find -maxdepth 3 -type f -empty
+  456  find -maxdepth 4 -type f -empty
+  457  find .-type f -empty |xargs rm 
+  458  find . -type f -empty |xargs rm 
+  459  su
+  460  sudo su
+  461  ps -ef
+  462  ps -ef | grep apache
+  463  kill -9 1818
+  464  kill -9 18184
+  465  pwd
+  466  cd ec2-user
+  467  cd dir1
+  468  ls
+  469  cd ../dir2
+  470  ls
+  471  vi ascending.sh
+  472  sh menu.sh
+  473  sh ascending.sh
+  474  vi ascending.sh
+  475  sh ascending.sh
+  476  vi ascending.sh
+  477  vi accendingorder.sh
+  478  sh accendingorder.sh
+  479  vi accendingorder.sh
+  480  sh accendingorder.sh
+  481  vi accendingorder.sh
+  482  vi decendingorder.sh
+  483  sh decendingorder.sh
+  484  vi decendingorder.sh
+  485  sh decendingorder.sh
+  486  vi decendingorder.sh
+  487  ls -lrt
+  488  vi menu.sh
+  489  vi reverse_string.sh
+  490  su -l
+  491  ls -lrt
+  492  umask 000
+  493  ls -lrt
+  494  cd dir1
+  495  ls
+  496  touch gagna
+  497  find . -type f -empty | xargs rm
+  498  ls 
+  499  ps
+  500  cd dir2
+  501  ls
+  502  vi reverse_string.sh
+  503  sh reverse_string.sh
+  504  vi reverse_string.sh
+  505  sh reverse_string.sh
+  506  vi reverse_string.sh
+  507  cd dir1
+  508  ls
+  509  cd ../dir2
+  510  ls
+  511  ci assending.sh
+  512  vi ascending.sh
+  513  sh ascending.sh
+  514  vi ascending.sh
+  515  sh ascending.sh
+  516  vi ascending.sh
+  517  sh ascending.sh
+  518  vi ascending.sh
+  519  sh ascending.sh
+  520  vi ascending.sh
+  521  sh ascending.sh
+  522  vi ascending.sh
+  523  sh ascending.sh
+  524  vi ascending.sh
+  525  vi menu.sh
+  526  sh menu.sh
+  527  vi menu.sh
+  528  sh menu.sh
+  529  vi menu.sh
+  530  sh menu.sh
+  531  vi menu.sh
+  532  sh menu.sh
+  533  vi menu.sh
+  534  sh menu.sh
+  535  vi menu.sh
+  536  pwd
+  537  cd dir2
+  538  ls
+  539  cd /dir2
+  540  cd /dir1
+  541  cd ../dir1
+  542  ls
+  543  vi uniq_sort
+  544  uniq uniq_sort
+  545  vi uniq_sort
+  546  sort unit_sort
+  547  sort uniq_sort
+  548  vi uniq_sort
+  549  sort uniq_sort
+  550  uniq uniq_sort
+  551  $$
+  552  $
+  553  cd dir1
+  554  pwd
+  555  ln -s /home/ec2-user/dir1 softlink
+  556  ls -lrt
+  557  cd softlink
+  558  ls
+  559  cd ..
+  560  rm softlink
+  561  ln /home/ec2-user/dir1 hardlink
+  562  cd ..
+  563  ln /home/ec2-user/dir1 hardlink
+  564  cd dir2
+  565  pwd
+  566  cd ..
+  567  ln /home/ec2-user/dir2 hlink
+  568  ln /home/ec2-user/dir2/deep1 hlink
+  569  ln /home/ec2-user/dir2/deep1 hlink1
+  570  ln /home/ec2-user/dir2 hlink
+  571  ln dir2 hlink
+  572  cd dir1
+  573  ln /home/ec2-user/dir1 hardlink
+  574  man du
+  575  cd dir1
+  576  ls
+  577  vi practice
+  578  vi practice.sh
+  579  sh practice.sh
+  580  vi practice.sh
+  581  cd dir1
+  582  ls
+  583  vi practice.sh
+  584  sh practice.sh
+  585  vi practice.sh
+  586  sh practice.sh
+  587  wq!
+  588  vi practice.sh
+  589  sh practice.sh
+  590  vi practice.sh
+  591  sh practice.sh
+  592  vi practice.sh
+  593  sh practice.sh
+  594  vi practice.sh
+  595  sh practice.sh
+  596  vi practice.sh
+  597  sh practice.sh
+  598  vi practice.sh
+  599  sh practice.sh
+  600  sh practice.sh
+  601  vi practice.sh
+  602  sh practice.sh
+  603  vi practice.sh
+  604  sh practice.sh
+  605  echo $@
+  606  echo $!
+  607  echo $*
+  608  cd dir1
+  609  ls
+  610  vi practice
+  611  vi practice.sh'
+  612  vi practice.sh
+  613  sh practice.sh
+  614  vi practice.sh
+  615  sh practice.sh
+  616  cd dir1
+  617  ls'
+  618  ls
+  619  vi practice.sh
+  620  sh practice.sh
+  621  vi practice.sh
+  622  sh practice.sh
+  623  vi practice.sh
+  624  set -x sh practice.sh
+  625  sh practice.sh
+  626  8
+  627  vi practice.sh
+  628  sh practice.sh
+  629  cd dir1
+  630  ls
+  631  vi practice.sh
+  632  sh practice.sh
+  633  vi practice.sh
+  634  sh practice.sh
+  635  vi practice.sh
+  636  sh practice.sh
+  637  vi practice.sh
+  638  sh practice.sh
+  639  sh practice.sh.
+  640  sh practice.sh
+  641  2 5 6
+  642  sh practice.sh
+  643  vi practice.sh
+  644  sh practice.sh
+  645  vi practice.sh
+  646  sh practice.sh
+  647  cd dir1
+  648  vi practice.sh
+  649  sh practice.sh
+  650  find -name practice.sh
+  651  find .-mtime-5
+  652  find .-mtime -5
+  653  find .-mtime +5
+  654  find .-mmin +6
+  655  vi while.sh
+  656  sh while.sh
+  657  find -type f -empty
+  658  find . -type f -empty
+  659  find .-mtime +5
+  660  cd dir1
+  661  ls
+  662  vi tar.sh
+  663  sh tar.sh
+  664  vi tar.sh
+  665  sh tar.sh
+  666  vi tar.sh
+  667  sh tar.sh
+  668  vi tar.sh
+  669  sh tar.sh
+  670  vi tar.sh
+  671  sh tar.sh
+  672  vi tar.sh
+  673  sh tar.sh
+  674  vi tar.sh
+  675  sh tar.sh
+  676  crantab -l
+  677  ls
+  678  vi tar.sh
+  679  clear
+  680  cd dir1
+  681   touch file1 file2
+  682  ls
+  683  vi file2
+  684  cat file1
+  685  ls
+  686  cat file2
+  687  cp file2 file1
+  688  cat file1
+  689  cat file2
+  690  mv file2 file1
+  691  cat file2
+  692  cat file1
+  693  sudo su
+  694  sudo useradd
+  695  sudo useradd gagan
+  696  sudo passwd gagan
+  697  sudo su
+  698  chown gagan
+  699  sudo chown raj gagan
+  700  sudo chown gagan
+  701  su gagan
+  702  ls
+  703  pwd
+  704  crontab -e
+  705  crontab -l
+  706  ps -ef
+  707  ping www.utilitysolutions.in
+  708  ssh
+  709  ls -lrt
+  710  grep "mega" file1
+  711  grep "mega" | grep -v
+  712  grep "mega" file1 
+  713  grep "mega" file1 | grep -v
+  714  grep "mega" file1
+  715  grep -v file1
+  716  grep -v "mega" file1
+  717  ls -lrt
+  718  crantab -e
+  719  crontab -e
+  720  crontab -l
+  721  vi if.sh
+  722  sh if.sh
+  723  vi while.sh
+  724  sh while.sh
+  725  vi while.sh
+  726  sh while.sh
+  727  vi while.sh
+  728  sh while.sh
+  729  vi while.s
+  730  vi while.sh
+  731  sh while.sh
+  732  vi while.sh
+  733  sh while.sh
+  734  vi while.sh
+  735  sh while.sh
+  736  vi while.sh
+  737  sh while.sh
+  738  vi while.sh
+  739  sh while.sh
+  740  vi while.sh
+  741  sh while.sh
+  742  vi while.sh
+  743  sh while.sh
+  744  vi while.sh
+  745  sh while.sh
+  746  vi while.sh
+  747  sh while.sh
+  748  vi while.sh
+  749  sh while.sh
+  750  vi while.sh
+  751  sh while.sh
+  752  vi while.sh
+  753  sh while.sh
+  754  vi while.sh
+  755  sh while.sh
+  756  vi while.sh
+  757  sh while.sh
+  758  vi while.sh
+  759  ls
+  760  vi if.sh
+  761  vi while.sh
+  762  sh while.sh
+  763  vi try.sh
+  764  sh try.sh
+  765  1 2
+  766  sh try.sh
+  767  vi try.sh
+  768  sh try.sh
+  769  vi try.sh
+  770  vi while.sh
+  771  vi 4tab.sh
+  772  sh 4tab.sh
+  773  vi elif.sh
+  774  sh elif.sh
+  775  vi elif.sh
+  776  sh elif.sh
+  777  vi elif.sh
+  778  vi try.sh
+  779  vi elif.sh
+  780  sh elif.sh
+  781  sh try.sh
+  782  clear
+  783  vi elif.sh
+  784  sh elif.sh
+  785  vi elif.sh
+  786  vi for.sh
+  787  cd dir1
+  788  clear
+  789  sudo yum install git -y
+  790  history
+  791  where is git
+  792  which git
+  793  which appache
+  794  git --v
+  795  git --version
+  796  cd shell_scripting
+  797  ls
+  798  ls -lrt
+  799  vi read_print.sh
+  800  cd ..
+  801  mkdir first repository
+  802  cd first repository
+  803  clear
+  804  git init
+  805  ls -lart
+  806  cd .git\
+  807  cd .git
+  808  ls -lrt
+  809  cat config
+  810  cd ..
+  811  clear
+  812  git config --global init.defaultBranch master
+  813  git branch
+  814  git config --global user.name "gagan"
+  815  git config --global user.email "gaganm.k78@gmail.com"
+  816  cd .git
+  817  ls -lrt
+  818  cat config
+  819  clear
+  820  cd first
+  821  ls -lrt
+  822  git status
+  823  git branch -M master
+  824  git add print_char.sh
+  825  git status
+  826  cd ../shell_scripting
+  827  ls
+  828  cp add_number.sh /home/ec2-user/first
+  829  cd ../first
+  830  ls
+  831  git status
+  832  git commit -m "adding a print the character of the script"
+  833  git status
+  834  git remote -v
+  835  git push
+  836  cd first repository
+  837  git remote add origin https://github.com/GagandeepMK/first-repository-.git
+  838  cd first
+  839  gi status
+  840  git status
+  841  git push
+  842  git push --set-upstream origin master
+  843  clear
+  844  cd first repository
+  845  cp ../shell_scripting/*
+  846  cd ../shell_scripting
+  847  ls
+  848  ls -lrt
+  849  rm -rf exaples_traill
+  850  cp ../shell_scripting/*
+  851  cp ../shell_scripting/* .
+  852  ls -lrt
+  853  cd ../first repository
+  854  ls -lrt
+  855  cp ../shell_scripting/* 
+  856  cd ../shell_scripting
+  857  cd ../first repository
+  858  cp ../shell_scripting/leap_year.sh
+  859  cp ../shell_scripting/print_char.sh
+  860  pwd
+  861  cp ../shell_scripting/print_char.sh /home/ec2-user/first
+  862  ls -lrt
+  863  git status
+  864  cd .git
+  865  cd first repository
+  866  ls
+  867  git status
+  868  cd first
+  869  cd first
+  870  ls
+  871  git status
+  872  git push
+  873  git push --set-upstream origin master
+  874  cd first
+  875  git status
+  876  git add add_number.sh
+  877  git commit -m "adding the numbers script"
+  878  git push
+  879  uname -v
+  880  uname -version
+  881  uname --version
+  882  uname
+  883  uname -a
+  884  uname
+  885  uname -v
+  886  uname -version
+  887  uname -a
+  888  uname --v
+  889  uname -v
+  890  uname -a
+  891  cd ~/.ssh/
+  892  ls
+  893  ls
+  894  rm -rf repository
+  895  ls
+  896  cd first
+  897  ls
+  898  git status
+  899  cd ../shell_scripting
+  900  ls
+  901  cp if_else.sh leap_year.sh /home/ec2-user/first
+  902  cd ../shell_scripting
+  903  cd ../first
+  904  ls
+  905  git status
+  906  git add if_else.sh
+  907  git commit -m "script on if else statement"
+  908  git status
+  909  git push
+  910  git status
+  911  ~/.ssh/
+  912  ~/ .ssh/
+  913  .ssh/
+  914  ~/.ssh/
+  915  cd ..
+  916  ~/.ssh/
+  917  cd ~/.ssh/
+  918  ls
+  919  ls -lrt
+  920  cd first
+  921  cd /home/ec2-user/
+  922  ls
+  923  cd dir1
+  924  ls
+  925  vi every50_lin.sh
+  926  ls
+  927  cd dir1
+  928  ls
+  929  vi gg.sh
+  930  cat gg.sh
+  931  sed '0~2 a\\' gg.sh
+  932  sed '0~2 abcd a\\' gg.sh
+  933  rm gg.sh
+  934  sed '0~2 abcd a\\' gg
+  935  sed '0~2 abcd a\' gg
+  936  sed '0~2 abcd \' gg
+  937  sed '0~3 abcd \' gg
+  938  sed '0~4 HEART \' gg
+  939  sed -e '0~4 HEART \' gg
+  940  sed -e '0~4 heart \' gg
+  941  sed -e '0~3 heart \' gg
+  942  sed -e '0~3 heart\' gg
+  943  sed -e '0~3 hear\' gg
+  944  sed '0~3 hear \' gg
+  945  sed '0~2 abcd \' gg
+  946  sed '0~4 abcd \' gg
+  947  sed '0~4 ABCD \' gg
+  948  sed -i '0~4 ABCD \' gg
+  949  sed -i '0~4 aBC\' gg
+  950  sed '0~4 aBC\' gg
+  951  sed '0~4 aABCD\' gg
+  952  cat gg
+  953  rm gg
+  954  vi gg
+  955  sed '0~4 aABCD\' gg
+  956  up time
+  957  ps
+  958  date
+  959  uptime
+  960  cd dir1
+  961  ls
+  962  sudo chattr +i -v practice.sh
+  963  ls
+  964  rm practice.sh
+  965  ls
+  966  sudo chattr +i -v gg
+  967  sudo chattr +i gg
+  968  rm gg
+  969  cd ..
+  970  mkdir dir7
+  971  sudo chattr +i V dir7
+  972  ls
+  973  sudo chattr +i -RV dir7
+  974  rm -rf dir7
+  975  cd dir2
+  976  ls
+  977  cd ..
+  978  ls
+  979  cd shell_scripting
+  980  ls
+  981  vi morethan_80%.sh
+  982  cd ..
+  983  cd dir1
+  984  history >>history.sh
+  985  cat history.sh
+  986  ls
+  987  mv history.sh /home/ec2-user/first
+  988  cd first
+  989  ls
+  990  git status
+  991  cd first
+  992  git pull
+  993  ls -lrt
+  994  git status
+  995  git add *
+  996  git status
+  997  git commit -m "scripts on leap year"
+  998  git push
+  999  history >history.txt
