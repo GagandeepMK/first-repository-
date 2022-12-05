@@ -1,8 +1,7 @@
 #!/bin/bash
 echo "enter string"
-
 read str
-echo "eneter from whhich char we need to start sub string"
+echo "eneter from which char we need to start sub string"
 
 
 read str
