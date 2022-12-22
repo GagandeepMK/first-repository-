@@ -22,7 +22,7 @@
 27) continous integration
 29) waterfall model
 31) how do u deploy and where do you deploy?
-[22/12, 8:08 am] +91 88801 10004: 32) Write some realistic scripts, day today activities, issues, how u resolve it.
+32) Write some realistic scripts, day today activities, issues, how u resolve it.
 34) Write flowchart of ur work and explain in deep.
 35) Syntax for makefile, ant, maven.
 36) Difference between ant,makefile,maven.
@@ -111,7 +111,7 @@ permission bit in a file?
 112) How can you find out how long the system has been running?
 113) What is the difference between $$ and $!?
 114) What is the difference between grep and egrep?
-[22/12, 8:28 am] +91 88801 10004: 115) What is the significance of $? ?
+115) What is the significance of $? ?
 116) How do we delete all blank lines in a file?
 117) How will I insert a line ―ABCDEF‖ at every 100th line of a file? 
 118) Write a command sequence to find all the files modified in less than 2 days 
