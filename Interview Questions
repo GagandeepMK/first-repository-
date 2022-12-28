@@ -1,0 +1,121 @@
+1) linux commands
+2) shell scripts exapmles(relastic)
+3) jenkins flow
+4) aws basics
+7) what is ur role ?
+9) roles and introduction
+10) how u del commented lines in shell script
+11) diff ant and maven
+13) process of ur work
+14) day to day activities
+15) if there is so much of diff files how u decide whether u should use ant or maven?
+16) y devops and value?
+17) where u deploy war file?
+18) full flow for jenkins!!
+20) explain current project
+21) master-slave concept
+22) plugin installation and uninstallation and explain some plugins
+23) jenkins backup pr0ceudre
+24) build trigger types and description
+25) security mechanism used in jenkins
+26) pre-requisties in jenkins
+27) continous integration
+29) waterfall model
+31) how do u deploy and where do you deploy?
+32) Write some realistic scripts, day today activities, issues, how u resolve it.
+34) Write flowchart of ur work and explain in deep.
+35) Syntax for makefile, ant, maven.
+36) Difference between ant,makefile,maven.
+37) Maven life cycle and repositories
+38) Y Devops ?? 
+39) What is Jenkins?
+40) What are the benefits of using Jenkins?
+41) What are the pre-requisites for using Jenkins?
+42) Mention some of the useful plugins in Jenkins?
+43) Which SCM tools Jenkins supports?
+44) Mention what are the commands you can use to start Jenkins manually?
+45) Explain how you can set up Jenkins job?
+46) Explain how to create a backup and copy files in Jenkins?
+47) How will you secure Jenkins?
+48) Explain how you can deploy a custom build of a core plugin?
+49) What is the relation between Hudson and Jenkins?
+50) What you do when you see a broken build for your project in Jenkins?
+51) Explain how you can move or copy Jenkins from one server to another?
+52) What are the various ways in which build can be scheduled in Jenkins ?
+53) What is the difference between Maven, Ant and Jenkins?
+54) What is another option for merging in git?
+55) What is the difference between ‗git remote‘ and ‗git clone‘?
+56) What is GIT version control?
+57) Mention some of the best graphical GIT client for LINUX?
+58) What is Subgit? Why to use Subgit?
+59) What is the function of ‗git diff ‘ in git? 
+60) What is ‗git status‘ is used for? 
+61) What is the difference between the ‗git diff ‘and ‗git status‘?
+62) What is the function of ‗git checkout‘ in git?
+63) What is the function of ‗git rm‘?
+64) What is the function of ‗git stash apply‘? 
+65) What is the use of ‗git log‘?
+66) What is ‗git add‘ is used for?
+67) What is the function of ‗git reset‘?
+68) What is git Is-tree?
+69) How git instaweb is used?What does ‗hooks‘ consist of in git?
+70) Explain what is commit message? How can you fix a broken commit?
+71) Why is it advisable to create an additional commit rather than amending an existing commit?
+72) What is ‗bare repository‘ in GIT?
+73) Name a few Git repository hosting services?
+ Introduction 
+Challenging task 
+ci/cd flow 
+deployment process
+74) What is GIT?
+75) What is a repository in GIT?
+76) What is the command you can use to write a commit message?
+77) What is the difference between GIT and SVN?
+78) What are the advantages of using GIT?
+79) What language is used in GIT?
+80) What is the function of ‗GIT PUSH‘ in GIT? 
+81) Why GIT better than Subversion? 
+82) What is ―Staging Area‖ or ―Index‖ in GIT?
+83) What is GIT stash?
+84) What is GIT stash drop?
+85) How will you know in GIT if a branch has been already merged into master?
+86) What is the function of git clone?
+87) What is the function of ‗git config‘?
+88) What does commit object contain?
+89) How can you create a repository in Git?
+90) What is ‗head‘ in git and how many heads can be created in a repository? 
+91) What is the purpose of branching in GIT?
+92) What is the common branching pattern in GIT? 
+93) How can you bring a new feature in the main branch?
+94) What is a ‗conflict‘ in git? How can conflict in git resolved?
+95) To delete a branch what is the command that is used?
+96) What is Linux?
+97) What does a nameless (empty) directory represent?
+98) What is the pwd command?What is grep command?
+99) Write a command that will look for files with an extension ―c‖, and has the 
+occurrence of the string ―apple‖ in it. 
+100) Write a command that will display all .txt files, including its individual 
+permission.
+101) What is the command to calculate the size of a folder?
+102) How can you find status of a process?How can you check the memory status ?
+103) Explain how to color the Git console?
+104) How can you append one file to another in Linux?
+105) Explain how you can find a file using Terminal?
+106) What is a shell?What is the difference between soft and hard links?
+107) How will you pass and access arguments to a script in Linux?
+108) What is the significance of $#?
+109) What is the difference between $* and $@? 
+110) How will you find the 99th line of a file using only tail and head command?
+111) Print the 10th line without using tail and head command.Explain about ―s‖ 
+permission bit in a file?
+112) How can you find out how long the system has been running?
+113) What is the difference between $$ and $!?
+114) What is the difference between grep and egrep?
+115) What is the significance of $? ?
+116) How do we delete all blank lines in a file?
+117) How will I insert a line ―ABCDEF‖ at every 100th line of a file? 
+118) Write a command sequence to find all the files modified in less than 2 days 
+and print the record count of each.
+119) How can we find the process name from its process id? 
+120) 
+
