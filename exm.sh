@@ -1,5 +1,2 @@
 #!/bin/bash
-kkk\
-	
-	
-	g
+g
