@@ -1,0 +1,8 @@
+go to ec2 instance
+connect with public ip in gitbash
+switch to sudo -i
+cd /opt/
+cd tomcat
+cd bin
+./startup.sh === for start tomcat
+./shutdown.sh ===== for shutdown tomcar
