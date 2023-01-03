@@ -6,3 +6,9 @@ cd tomcat
 cd bin
 ./startup.sh === for start tomcat
 ./shutdown.sh ===== for shutdown tomcar
+
+
+for setting up password to tomcat 
+go to tomcat 
+inside tomcat goto cd conf
+inside that vi tomcat-users.xml edit this file at bottom u got know
