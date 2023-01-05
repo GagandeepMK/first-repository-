@@ -1,0 +1,1000 @@
+    3  cd ../..
+    4  cd shell_scripting
+    5  ls
+    6  cat add_number.sh
+    7  logout
+    8  ps -ef | grep tomcat
+    9  sudo -i
+   10  ls -lrt
+   11  sudo -i
+   12  ip a
+   13  systemctl restart jenkins
+   14  systemctl status jenkins
+   15  sudo -i
+   16  logout
+   17  ifconfig
+   18  ip
+   19  ip r
+   20  sudo -i
+   21  sudo -i
+   22  ls
+   23  systemctl status jenkins
+   24  sudo -i
+   25  systemctl status jenkins
+   26  sudo -i
+   27  clear
+   28  clear
+   29  where is maven
+   30  whereis maven
+   31  cd /etc/
+   32  ls
+   33  cd maven
+   34  ls
+   35  ls -lrt
+   36  cd ..
+   37  ls
+   38  mvn clean install
+   39  ls
+   40  whereis maven
+   41  sudo -i
+   42  sudo -i
+   43  javac -version
+   44  ls
+   45  cd repo_git
+   46  ls
+   47  cd Maven_Examples
+   48  ls
+   49  cd sample_java
+   50  ls
+   51  mvn clean install
+   52  whereis mvn
+   53  ls
+   54  ls -lrt
+   55  cd dir1
+   56  ls
+   57  vi deep1
+   58  clear
+   59  vi deep1
+   60  cd dir1
+   61  ls
+   62  cd dir1
+   63  ls
+   64  cd dir1
+   65  ls
+   66  cd dir1
+   67  ls
+   68  cd ..
+   69  mkdir amzon
+   70  ls
+   71  cp -r amzon dir1
+   72  ls
+   73  cd dir1
+   74  ls
+   75  rm -rf amzon
+   76  ls
+   77  cp deep1 /home/ec2-user/amzon
+   78  ls
+   79  cd ../amzon
+   80  ls
+   81  rm -f deep1
+   82  ls
+   83  cd ../dir1
+   84  cat ht
+   85  wc -l ht
+   86  wc -w h
+   87  wc -w ht
+   88  wc -c ht
+   89  cat deep1
+   90  grep "good" deep1
+   91  grep -e "good" -e make deep1
+   92  grep -w "make" deep1
+   93  grep -l "well" deep1
+   94  grep -l -R "well" deep1
+   95  grep "^ they " deep1
+   96  grep "^ they" deep1
+   97  grep "^ if" deep1
+   98  grep -i "^ if" deep1
+   99  ls -lrt
+  100  cat deep1
+  101  grep "^ Resource" deep1
+  102  vi deep1
+  103  grep "^ unix" deep1
+  104  grep "^unix" deep1
+  105  grep "^Resource" deep1
+  106  cat deep1
+  107  grep "^they" deep1
+  108  vi deep1
+  109  grep "linux$" deep1
+  110  grep -c "linux" deep1
+  111  grep -V "linux" deep1
+  112  grep -v "linux" deep1
+  113  grep -v "unix" deep1
+  114  grep -v "essay" deep1
+  115  cat deep1
+  116  head -2 deep1
+  117  head -1
+  118  head -1 deep1
+  119  head -5 deep1 | tail -1
+  120  ls -lrt | wc -l
+  121  lcd dir1
+  122  cd dir1
+  123  ls
+  124  car deep1
+  125  cat deep1
+  126  head -8 deep1
+  127  tail -2
+  128  tail -2 deep1
+  129  tail -5
+  130  tail -5 deep1
+  131  head deep1
+  132  tail deep1
+  133  sed 's/good/bad/g' deep1
+  134  sed -i 's/good/bad/g' deep1
+  135  cat deep1
+  136  clear
+  137  sed '$d' deep1
+  138  cat deep1
+  139  clear
+  140  cd dir1
+  141  ls
+  142  sed -n '2P' deep1
+  143  sed '2d' deep1
+  144  sed '2,5d' deep1
+  145  sed '2,6d' deep1
+  146  cat deep1
+  147  sed -n '$d' deep1
+  148  sed '$d' deep1
+  149  ls -lrt
+  150  ls -lrt | cut -d " " -f
+  151  ls -lrt | cut -d " " -f{print $1}' 
+  152  cut -d " " -f{print $1}'
+  153  awk -F " " -f{print $1}'
+  154  awk -F " " -f{print $1}' | ls -lrt
+  155  awk -F " " -f{print $1}' |ls -lrt
+  156  cd dir1
+  157  ls
+  158  cat gg
+  159  cat 4tab.sh
+  160  cat exel
+  161  cut -d " " -f 1 exel
+  162  cut -d " " -f 3 exel
+  163  cut -d " " -f 2 exel
+  164  cat exel
+  165  cut -d " " -f 1,2 exel
+  166  cut -d " " -f 3,4 exel
+  167  cut -d " " -f 4,5 exel
+  168  awk -F " " '{print $1}' exel
+  169  awk -F " " '{print $2}' exel
+  170  awk -F " " '{print $(NF)}' exel
+  171  awk -F " " '{print $(NF-1)}' exel
+  172  awk -F " " '{print $NF}' exel
+  173  awk -F " " '{print $(NF-2)}' exel
+  174  cat exel
+  175  ls -lrt
+  176  ls -lrt | cut -d " " -f 1
+  177  ls -lrt | cut -d " " -f 2
+  178  ls -lrt | cut -d " " -f 3
+  179  ls -lrt | cut -d " " -f 4,5
+  180  ls -lrt | cut -d " " -f NF
+  181  ls -lrt | cut -d " " -f $(NF)
+  182  ls -lrt | awk -F " " '{print 1,2}'
+  183  ls -lrt
+  184  ls -lrt | awk -F " " '{print $1,2}'
+  185  clear
+  186  ls -lrt
+  187  ls -lrt | awk -F " " '{print $(NF-1)}'
+  188  ls -lrt | awk -F " " '{print $(NF-1,2)}'
+  189  ls -lrt | awk -F " " '{print $(NF-5)}'
+  190  ls -lrt | awk -F " " '{print $(NF -5)}'
+  191  ls -lrt | awk -F " " '{print $(NF -2)}'
+  192  ls -lrt | awk -F " " '{print $(NF -3)}'
+  193  ls -lrt | awk -F " " '{print $(NF)}'
+  194  ls -lrt | awk -F " " '{print $NF}'
+  195  sed '2d' deep1
+  196  sed '$d' deep1
+  197  sed -n '2,4P' deep1
+  198  sed -n '$2P' deep1
+  199  sed -n '4$P' deep1
+  200  sed -n '4,$P' deep1
+  201  cd dir1
+  202  find . -type f -perm 0777
+  203  find . -type f -perm 0776
+  204  find . -type f -perm 0775
+  205  find . -type f -perm 0774
+  206  find . -type f -perm 774
+  207  find . -type f -perm 772
+  208  ls
+  209  ls -lrt
+  210  find . -tpye f ! -empty
+  211  find . -type f ! -empty
+  212  find . -type -mtime -90
+  213  find . -mtime -90
+  214  find . -mmin -90
+  215  find. -mmin -90
+  216  find . -mmin -30
+  217  cd dir1
+  218  cd dir1
+  219  ls
+  220  vi $?.sh
+  221  ./ $?.sh
+  222  ls
+  223  sh $?.sh
+  224  l
+  225  sh $?.sh
+  226  ls -lrt
+  227  sh $?.sh
+  228  ls -l
+  229  ls -lt
+  230  l
+  231  sh $?.sh
+  232  cat
+  233  sh $?.sh
+  234  cd dir1
+  235  vi date.sh'
+  236  vi date.sh
+  237  clear
+  238  cd dir1
+  239  ls
+  240  cd dir1
+  241  vi date.sh
+  242  sh date.sh
+  243  rm date.sh
+  244  ls
+  245  cd dir1
+  246  ls
+  247  vi 0.sh
+  248  sh 0.sh
+  249  clear
+  250  df -f
+  251  df
+  252  df 
+  253  .
+  254  clear
+  255  find . -mtime -90
+  256  find . -mtime -10
+  257  find . -mtime -2
+  258  find . -mtime -1
+  259  find . -mmin -1
+  260  ls -lrt | awk -F " " '{print $1}' 
+  261  ls -lrt | cut -d " " -f 1
+  262  ls -lrt | cut -d " " -f 2
+  263  cd dir1
+  264  ls
+  265  find . -name "*.c" -exec grep -l "apple"
+  266  find . -name "*.c"  grep -l "apple"
+  267  find . -name "*.c" -exec grep -l "apple" {} \;
+  268  find . -name "*.c"  grep -l "apple"
+  269  find . -name "*.c" -exec grep -l "apple" {} \;
+  270  cd dir1
+  271  ls
+  272  ls -lrt | grep -e *
+  273  ls -lrt | grep -e .sh*
+  274  ls -lrt | grep -e .sh *
+  275  cd dir1
+  276  df -u
+  277  df
+  278  du -f.
+  279  du -f
+  280  mkdir git_practice
+  281  cd git_practice
+  282  git --config
+  283  git init
+  284  git --config global gagamdeepMK
+  285  git --version
+  286  cd git_pratice
+  287  ls
+  288  cd git_practice
+  289  git init
+  290  ls -lart
+  291  cd git_practice
+  292  git --config global user.name GagandeepMK
+  293  git config --global user.name GagandeepMK
+  294  git config --global user.email "gaganm.k78@gmail.com"
+  295  git config --global user.name "GagandeepMK"
+  296  git config --global user.email "gaganm.k78@gmail.com"
+  297  cd .git/
+  298  ls
+  299  cat config
+  300  cd ..
+  301  git remote
+  302  cd git_practice
+  303  ls
+  304  git status
+  305  git remote add origin 
+  306  git remote add origin https://github.com/gagandeepMK/git_practice.git
+  307  git push
+  308  git push -u origin main
+  309  cd ..
+  310  ls
+  311  cd first
+  312  ls
+  313  git tag
+  314  git branch
+  315  git checkout version_1
+  316  git branch 
+  317  git checkout feature1
+  318  gitcheckout feature1
+  319  git checkout feature1
+  320  git switch -
+  321  git branch
+  322  git checkout master
+  323  git remote -v
+  324  git rebase https://github.com/GagandeepMK/first-repository-.git
+  325  cd dir1
+  326  find . -mtime -2 | wc -l
+  327  ps -ef | find . -mtime -1
+  328  uptime
+  329  uptime -p
+  330  ls
+  331  cat ht
+  332  vi ht
+  333  sed '/^$/d' ht
+  334  cat ht
+  335  sed '/^$/d' ht >ht
+  336  ls
+  337  cat ht
+  338  vi ht
+  339  cd dir1
+  340  ls
+  341  cat gg
+  342  sed '0~4 aABCD\' gg
+  343  sed '0~4 asede\' gg
+  344  cat gg
+  345  sed '0~4 asede\' gg
+  346  ps -ef PID -f
+  347  ps -p PID -f
+  348  ps -p
+  349  du -f
+  350  du
+  351  ps
+  352  du -sh
+  353  df -h
+  354  free -h
+  355  df -sh
+  356  df -h
+  357  df -h .
+  358  free -h
+  359  ps -ef
+  360  ps
+  361  ps -p
+  362  ps -ef | grep "10176"
+  363  ps -p 10176 -o
+  364  cd dir1
+  365  vi evey 20thline
+  366  sed '0~20 a ABCDE\' evey 20thline
+  367  whomiam
+  368  whoiam
+  369  whoami
+  370  echo hi
+  371  ls t*
+  372  ls
+  373  cd git_practice
+  374  git int
+  375  git init
+  376  git clone https://github.com/GagandeepMK/first-repository-.git
+  377  git branch
+  378  git checkout
+  379  git branch
+  380  git status
+  381  ls
+  382  rm -f first-repository-
+  383  rm -rf first-repository-
+  384  ls
+  385  git branch
+  386  git remote -v
+  387  git push
+  388  git push --set-upstream origin master
+  389  cd git_practice
+  390  git status
+  391  git init
+  392  git push
+  393  git push --set-upstream origin master
+  394  git pull
+  395  git push --set-upstream origin master
+  396  clear
+  397  mkdir git-repo
+  398  cd git-repo
+  399  git init
+  400  cd git-repo
+  401  git status
+  402  git commit -m "repo"
+  403  git remote -v
+  404  git remote
+  405  git init
+  406  cd .git/
+  407  ls
+  408  cd ..
+  409  cd .git/
+  410  ls
+  411  cat config
+  412  git config --global init.defaultBranch master
+  413  git config --global user.name "gagandeepMK"
+  414  git config --global user.email "gaganm.78@gmail.com"
+  415  cd .git/
+  416  cat config
+  417  cd ..
+  418  git remote add origin https://github.com/gaganm.k78@gmail.com/git-repo.git
+  419  git status
+  420  vi gg
+  421  git status
+  422  git add *
+  423  git commit -m "practice purpose"
+  424  git push
+  425  git push --set-upstream origin master
+  426  cd git -repo
+  427  cd git-repo
+  428  git push -u origin master
+  429  git status
+  430  ls
+  431  git push
+  432  git push --set-upstream origin master
+  433  git config --global
+  434  git push
+  435  git push --set-upstream origin master
+  436  gi remote add origin https://github.com/GagandeepMK/first-repository-.git
+  437  git remote add origin https://github.com/GagandeepMK/first-repository-.git
+  438  git remote add origin git@github.com:GagandeepMK/practice.git
+  439  git remote add origin git@github.com:GagandeepMK/git-repo.git
+  440  git remote -v
+  441  git status
+  442  touch mm
+  443  git status
+  444  git add *
+  445  git commit -m "practice"
+  446  git push
+  447  git push --set-upstream origin master
+  448  cd ..
+  449  rm -rf got -repo
+  450  rm -rf got-repo
+  451  ls
+  452  cd amzon
+  453  ls
+  454  git init
+  455  touch vv
+  456  git status
+  457  git add *
+  458  git commit -m "practice"
+  459  git push
+  460  git remote add git@github.com:GagandeepMK/practice.git
+  461  git remote add origin git@github.com:GagandeepMK/practice.git
+  462  git push
+  463  git push --set-upstream origin master
+  464  git push
+  465  git status
+  466  history
+  467  ls
+  468  cd repo_git
+  469  ls
+  470  git log
+  471  ls
+  472  cd ..
+  473  cd 
+  474  ls
+  475  cd first
+  476  ls
+  477  git log
+  478  git  log -3
+  479  git status
+  480  git add *
+  481  git add time
+  482  git status
+  483  git commit -m "practice"
+  484  git push
+  485  ls
+  486  git status
+  487  touch null
+  488  git add null
+  489  git commit -m "null file"
+  490  git push
+  491  git fetch
+  492  git push
+  493  git remote -v
+  494  git pull
+  495  git branch
+  496  git config --global
+  497  git status
+  498  ls
+  499  git push
+  500  git push origin master git@github.com:GagandeepMK/first-repository-.git
+  501  git@github.com:GagandeepMK/first-repository-.git
+  502  git push
+  503  git push origin master
+  504  git remote add origin git@github.com:GagandeepMK/first-repository-.git
+  505  git push --set-upstream origin master
+  506  git pull
+  507   git config pull.ff only
+  508  git pull
+  509  git merge
+  510  git status
+  511  ls
+  512  git push
+  513  ls
+  514  cd first
+  515  ls
+  516  git status
+  517  git branch
+  518  git checkout -b newbranch
+  519  git branch
+  520  git checkout master
+  521  git push
+  522  git branch newbranch
+  523  git push
+  524  git branch
+  525  git checkout newbranch
+  526  git push
+  527  git push --set-upstream origin newbranch
+  528  git push
+  529  clear
+  530  git status
+  531  ls
+  532  ls -lrt
+  533  git tag
+  534  git -d v1.0
+  535  git tag -d v1.0
+  536  git push
+  537  git branch
+  538  git checkout master
+  539  git push
+  540  git branch
+  541  git tag
+  542  git push
+  543  git tag -d v1.2
+  544  git push
+  545  git tag -d v1.3
+  546  git tag -d v2.0
+  547  git tag
+  548  ls
+  549  rm deep
+  550  ls
+  551  git status
+  552  git push
+  553  git status
+  554  git add deep
+  555  git commit -m 
+  556  git commit -m "msg"
+  557  git push
+  558  clear
+  559  ls
+  560  vi exm.sh
+  561  git status'
+  562  git status
+  563  git add
+  564  git status
+  565  git add exm.sh
+  566  git commit -m "practice"
+  567  git push
+  568  git branch'
+  569  git branch
+  570  git revert 
+  571  git revert 2d8c8dd8368cfa2586e9f51856fb01e338b47661
+  572  git push
+  573  ls
+  574  cd first
+  575  ls
+  576  cat dude
+  577  vi dude
+  578  git status
+  579  git add dude
+  580  git commit -m "practice purpose"
+  581  git push
+  582  git reset --soft 256db312037fb5ad2360338313e14f8b6e069a19
+  583  git status
+  584  git reset --hard 256db312037fb5ad2360338313e14f8b6e069a19
+  585  git status
+  586  git log --oneline
+  587  git log -2
+  588  git reset 65b737c8ce80ce21cce2f68196998b6d81f33d2e
+  589  git push
+  590  git merge
+  591  git stash
+  592  git status
+  593  git 
+  594  vi dude
+  595  git status
+  596  git add dude
+  597  git commit -m "commit"
+  598  git log -2
+  599  git reset
+  600  git status
+  601  git log -1
+  602  git reset --mixed 4046a9ecdd6a3ded937ab35e7eb3716f61a522ad
+  603  git log --3
+  604  git log -3
+  605  git status
+  606  git reset HEAD
+  607  git log -3
+  608  git status
+  609  ls
+  610  cd first
+  611  git pull
+  612  ls
+  613  ls -lrt
+  614  gs
+  615  git merge
+  616  git pull
+  617  git reset
+  618  cd first
+  619  git branch
+  620  git diff master feature1
+  621  git diff feature1 feature2
+  622  git branch
+  623  git diff version_1 newbranch
+  624  git diff newbranch version_1
+  625  git branch
+  626  git branch -d newbranch
+  627  git push
+  628  git pull
+  629  git merge
+  630  git status
+  631  git add dude
+  632  git commit -m "commit"
+  633  git push
+  634  git pull
+  635  git merge
+  636  git status
+  637  git branch
+  638  git branch -d version_1
+  639  cd first
+  640  git branch
+  641  git push origin --delete version_1
+  642  git push origin --delete version_2
+  643  git push origin --delete newbranch
+  644  git show
+  645  git status
+  646  git add pull.txt
+  647  git commit -m "cpmmit"
+  648  git push
+  649  git fetch
+  650  git status
+  651  git pull
+  652  git pull 3ecb8e0b662d48fa863c190a945a5ebec8173d1b
+  653  cd first
+  654  ls
+  655  git branch
+  656  git pull  0a77dc2
+  657  git pull git@github.com:GagandeepMK/first-repository-.git
+  658  ls
+  659  git pull https://github.com/GagandeepMK/practice.git
+  660  ls
+  661  git pull https://github.com/GagandeepMK/practice.git
+  662  git fetch
+  663  git pull https://github.com/GagandeepMK/practice.git
+  664  git branch
+  665  git pull https://github.com/GagandeepMK/practice.git
+  666  git stash
+  667  git [ull
+  668  git pull
+  669  git merge
+  670  git pull https://github.com/GagandeepMK/practice.git
+  671  ls
+  672  git status
+  673  git stash
+  674  git merge
+  675  git push
+  676  git fetch
+  677  git merge
+  678  git rm dude
+  679  git status
+  680  git commit -m "n"
+  681  git push
+  682  git status
+  683  git merge
+  684  git pull https://github.com/GagandeepMK/practice.git
+  685  ls
+  686  git stash
+  687  git merge
+  688  git reset --hard
+  689  git status
+  690  git pull fatal: Not possible to fast-forward, a
+  691  git pull fatal: Not possible to fast-forward, 
+  692  git pull https://github.com/GagandeepMK/practice.git
+  693  git pull git@github.com:GagandeepMK/practice.git
+  694  cd ..
+  695  cd -
+  696  cd ..
+  697  ls
+  698  cd git_practice
+  699  ls
+  700  git pull git@github.com:GagandeepMK/practice.git
+  701  ls
+  702  cp README.md /home/ec2-user/first/
+  703  ls
+  704  cd ../first
+  705  ls
+  706  cd ..
+  707  cp git_practice /home/ec2-user/first/
+  708  mysql -h {paste-rds-endpoint-here} -P 3306 -u rdsuser -p
+  709  clear
+  710  cp git_practice /home/ec2-user/first/
+  711  exit
+  712  cd first
+  713  ls
+  714  git status
+  715  git add README.md
+  716  git commit -m"commit"
+  717  git push
+  718  git pull
+  719  git status
+  720  git pull
+  721  ls
+  722  git status
+  723  git push
+  724  git pull
+  725  git merge
+  726  ls
+  727  clear
+  728  cd first
+  729  ls
+  730  vi null
+  731  gs
+  732  git add null
+  733  git commit -m "null file"
+  734  gs
+  735  git push
+  736  vi null
+  737  gs
+  738  git add null
+  739  gs
+  740  git revers null
+  741  git revert null
+  742  git revert
+  743  git reset
+  744  ls
+  745  gs
+  746  git ad null
+  747  git add null
+  748  cd git_practice
+  749  ls
+  750  gs
+  751  git pull
+  752  ls
+  753  git pull
+  754  ls -la
+  755  git pull
+  756  git remote -v
+  757  cd .git
+  758  ls
+  759  cat config
+  760  cd ..
+  761  git pull
+  762  cd ..
+  763  rm -rf git_practice
+  764  ls
+  765  cd git_repo
+  766  cd git-repo
+  767  git init
+  768  git status
+  769  git add origin https://github.com/GagandeepMK/practice.git
+  770  ls
+  771  cd ..
+  772  mkdir git
+  773  cd git
+  774  git init
+  775  git remote add origin https://github.com/GagandeepMK/practice.git
+  776  ls
+  777  git push --setup-upstream origin master
+  778  touch
+  779  touch mkg
+  780  git status
+  781  git add .
+  782  git status
+  783  git commit -m"mm"
+  784  git push
+  785  git push --set-upstream origin master
+  786  git remote -v
+  787  git remote add origin git@github.com:GagandeepMK/practice.git
+  788  ls
+  789  cd repo_git
+  790  ls
+  791  cd maven_test
+  792  ls
+  793  cd ..
+  794  cp Maven_Examples  maven_test /home/ec2-user/first
+  795  cp Maven_Examples maven_test /home/ec2-user/first
+  796  cp -r Maven_Examples maven_test /home/ec2-user/first
+  797  cd ../first
+  798  ls
+  799  git status
+  800  git add .
+  801  ls
+  802  git add maven_test
+  803  git commit -m" maven test case"
+  804  git push
+  805  ls
+  806  git rm add_number.sh
+  807  ls
+  808  git push
+  809  ls
+  810  git status
+  811  git add add_number.sh
+  812  rm exm.sh
+  813  git status
+  814  git add exm.sh
+  815  git commit -m"deleted"
+  816  git push
+  817  ls
+  818  ls -lrt
+  819  rm if_else.sh leap_year.sh history.txt gagan.csv history.sh print_char.sh time file4.yml file3.yml file2.yml file1.yml pull.txt null
+  820  ls
+  821  gs
+  822  git add if_else.sh leap_year.sh history.txt gagan.csv history.sh print_char.sh time file4.yml file3.yml file2.yml file1.yml pull.txt null
+  823  gs
+  824  git add if_else.sh leap_year.sh history.txt gagan.csv history.sh print_char.sh time file3.yml file2.yml file1.yml pull.txt null
+  825  git add if_else.sh leap_year.sh history.txt gagan.csv history.sh print_char.sh time pull.txt null
+  826  git commit -m "deleting empty files"
+  827  git push
+  828  ls
+  829  cd Maven_Examples
+  830  ls
+  831  cd ..
+  832  git add
+  833  git status
+  834  git add Maven_Examples
+  835  gs
+  836  git clean -f
+  837  gs
+  838  git add Maven_Examples
+  839  gs
+  840  git restore maven_test
+  841  gs
+  842  rm -rf Maven_Examples
+  843  ls
+  844  git status
+  845  clear
+  846  git status
+  847  rm -rf  maven_test
+  848  ls
+  849  git status
+  850  git rm Maven_Examples
+  851  gs
+  852  git rm         modified:   Maven_Examples (modified content, untracked content)
+  853          modified:   maven_test (untracked content)
+  854  no changes added to commit (use "git add" and/or "git commit -a")
+  855  [ec2-user@ip-172-31-46-203 first]$ git restore maven_test
+  856  [ec2-user@ip-172-31-46-203 first]$ gs
+  857  On branch master
+  858  Your branch is up to date with 'origin/master'.
+  859  Changes not staged for commit:
+  860    (use "git add <file>..." to update what will be committed)
+  861    (use "git restore <file>..." to discard changes in working directory)
+  862    (commit or discard the untracked or modified content in submodules)
+  863          modified:   Maven_Examples (modified content, untracked content)
+  864          modified:   maven_test (untracked content)
+  865  no changes added to commit (use "git add" and/or "git commit -a")
+  866  [ec2-user@ip-172-31-46-203 first]$ rm -rf Maven_Examples
+  867  [ec2-user@ip-172-31-46-203 first]$ ls
+  868  Devops Youtube links  git commands  Interview Questions  maven_test  pipeline  README.md
+  869  [ec2-user@ip-172-31-46-203 first]$ git status
+  870  On branch master
+  871  Your branch is up to date with 'origin/master'.
+  872  Changes not staged for commit:
+  873    (use "git add/rm <file>..." to update what will be committed)
+  874    (use "git restore <file>..." to discard changes in working directory)
+  875    (commit or discard the untracked or modified content in submodules)
+  876          deleted:    Maven_Examples
+  877          modified:   maven_test (untracked content)
+  878  no changes added to commit (use "git add" and/or "git commit -a")
+  879  [ec2-user@ip-172-31-46-203 first]$
+  880  [ec2-user@ip-172-31-46-203 first]$ clear
+  881  [ec2-user@ip-172-31-46-203 first]$ git status
+  882  On branch master
+  883  Your branch is up to date with 'origin/master'.
+  884  Changes not staged for commit:
+  885    (use "git add/rm <file>..." to update what will be committed)
+  886    (use "git restore <file>..." to discard changes in working directory)
+  887    (commit or discard the untracked or modified content in submodules)
+  888          deleted:    Maven_Examples
+  889          modified:   maven_test (untracked content)
+  890  no changes added to commit (use "git add" and/or "git commit -a")
+  891  [ec2-user@ip-172-31-46-203 first]$ rm -rf  maven_test
+  892  [ec2-user@ip-172-31-46-203 first]$ ls
+  893  Devops Youtube links  git commands  Interview Questions  pipeline  README.md
+  894  [ec2-user@ip-172-31-46-203 first]$ git status
+  895  On branch master
+  896  Your branch is up to date with 'origin/master'.
+  897  Changes not staged for commit:
+  898    (use "git add/rm <file>..." to update what will be committed)
+  899    (use "git restore <file>..." to discard changes in working directory)
+  900          deleted:    Maven_Examples
+  901          deleted:    maven_test
+  902  no changes added to commit (use "git add" and/or "git commit -a")
+  903  [ec2-user@ip-172-31-46-203 first]$ git rm Maven_Examples
+  904  rm 'Maven_Examples'
+  905  [ec2-user@ip-172-31-46-203 first]$ gs
+  906  On branch master
+  907  Your branch is up to date with 'origin/master'.
+  908  Changes to be committed:
+  909    (use "git restore --staged <file>..." to unstage)
+  910          deleted:    Maven_Examples
+  911  Changes not staged for commit:
+  912    (use "git add/rm <file>..." to update what will be committed)
+  913    (use "git restore <file>..." to discard changes in working directory)
+  914          deleted:    maven_test
+  915  [ec2-user@ip-172-31-46-203 first]$ git rm
+  916  gs
+  917  git rm maven_test
+  918  gs
+  919  git add Maven_Examples
+  920  git push
+  921  git commit -m "deltedng"
+  922  git push
+  923  ls
+  924  cd ../repo_git
+  925  ls
+  926  cp -r Maven_Examples /home/ec2-user/first
+  927  cd ../first
+  928  ls
+  929  git status
+  930  ls
+  931  cd Maven_Examples
+  932  ls
+  933  cd sample_java
+  934  ls
+  935  git add pom.xml
+  936  git commit -m"pom.xml file"
+  937  gs
+  938  git push
+  939  cd ..
+  940  gs
+  941  cd Maven_Examples/
+  942  cd sample_java
+  943  ls
+  944  cp pom.xml /home/ec2-user/dir1
+  945  cd ../../dir1
+  946  cd ../..
+  947  cd ../dir1
+  948  ls
+  949  mv pom.xml /home/ec2-user/first
+  950  cd ../first
+  951  ls
+  952  gs
+  953  git add pom.xml
+  954  gs
+  955  git commit -m "sample java file"
+  956  git push
+  957  whereis tomcat
+  958  cd repo_git
+  959  ls
+  960  cd maven_test
+  961  cd sample_java
+  962  ls
+  963  cd ../Maven_Examples
+  964  ls
+  965  cd sample_java
+  966  ls
+  967  mvn clean
+  968  mvn insta;;
+  969  mvn install
+  970  java --version
+  971  sudo -i
+  972  cd repo_git
+  973  ls
+  974  cd Maven_Examples
+  975  cd Simple_java
+  976  ls
+  977  cd sample_java
+  978  mvn clean package
+  979  ls
+  980  cd target
+  981  ls
+  982  cd..
+  983  cd ../../..
+  984  cd ..
+  985  whereis jenkins
+  986  cd /usr/bin/jenkins /usr/share/jenkins
+  987  cd /usr/share/jenkins
+  988  ls
+  989  cd ..
+  990  cd /opt
+  991  ls
+  992  cd /home/ec2-user
+  993  ls
+  994  LS
+  995  ls
+  996  grep -i ipadress
+  997  grep -i ipaddress
+  998  clear
+  999  ps -ef | grep -i ipaddress
+ 1000  cd first
+ 1001  ls
+ 1002  history > history.txt
