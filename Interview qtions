@@ -1,0 +1,97 @@
+How increase server capcity
+2.How increase container volume (not just attaching by manual)
+3.Expalin ECS process
+4.Terraform statefile taking backup
+5.Eks creation via terraform
+6.How will deploy promethus and grafrana automatically in each created new pod 
+7.Sonarqube integration with jenkins
+8.Why jenkins master and slave need to be used 
+9.How to run multpile version of tomcat on same server
+10.WAF in aws
+11.Could shield
+12.How to test kind of object without actually creating the object( kuberenetes)
+13.Script to check valid ip address
+14.Script to combine two array and sort in ascending order
+15.Master slave configuration
+16.Git stash
+17.Git partial clone
+18.How merge when git remote repo is ahead of two commit and you need merge your changes after commits in git repo
+19.Declarative pipeline syntax
+20.What is Ansible
+21.Ansible used for 
+22.Can we use 3rd party application within project
+23.Rebooting of linux
+24.Kernal version of different flavours of linux
+25.Script to mv files above file no 45 to other folder
+26.Kubernetes architecture
+27.Configmaps
+28.Helmcharts
+29.Isito
+30.Microservices spread system
+31.Nginx webserver
+32Maven usage
+33.Public key and private key concept
+34.Git branaching ... How will create branching for fixing bug in production if there are 3 branches master release and qa
+35.Vpc components
+36.How will connect to private subnet
+37.How will recover the lost pem key of ec2instance
+Secnario
+38.How will debug issue related to ingress connected but load balancer not created
+39.How will configure slave machine and details given over there
+40.What are errors during peering vpc in cross region
+41.Ansible playbook to install docker ,nginx server, and run in port 8080 (search in internet and write)
+42.Git revert and git rebase
+43.Types of polling job in jenkins
+44.How will send particular job error data to particular user
+45.Secnario how will you remove video fil from github that has been added to repo 6months back and keep the other changes that committed along with video commit
+46.Ways to connect to ec2 in ssh
+47.Which type of key file used to establish connection to aws
+48.What is default permission of file in linux
+49.Storages in aws
+50.No of executors in nodes
+51.Top command to check %cpu etc shift+m to sort via memory based
+
+1.Cloudwatch and trail working and 2.Configuring with resources
+3.Pod pod to connection
+4.Node node connection
+5.Kubernetes architecture
+6.Services worked in aws
+7.How will you acess  s3 from particular ec2
+8.What are resources in terraform
+9.Route 53
+10.Vpc components
+11.Types of job triggers in jenkins
+12.Git stash use case
+13.Jenkins Pipeline
+14.How will you configure slave  so master has acess
+15.Docker architecture
+16.Docker comands most used
+17.Docker command to enter conatiner
+18.Docker demon
+19.Cluster in kubernetes
+20.Aws IAM 
+21.RDS
+22.Internet gateway
+23.Pull request
+24.Git cherrypick
+25.How will you copy changes that made in one branch to other branches
+26.Git cherrypick command
+27.Splunk configuration 
+28.Deamonsets and sidecar
+29.How will you deploy to ec2 instance
+30.Why jenkins when you have cicd in aws
+31.Kubernetes deploynent from scratch
+1.Git stash
+2.Git pull git fetch 
+3.Git reset git revert
+4.Aws ecs and fargate explain
+5.Piple declarative and scripted 
+6.Installing plugins in jenkins
+7.Web security in aws
+8.Vpc configuration in aws
+9.Distributed version control and centralized vcs
+10.Custom module configuration to create instacnce and security group
+11.apigate way connection to lambda
+12.Terraform files managing for prod dev preprod
+13.Shell script to download to Data from S3 and store in local
+14.Project structure For terraform
