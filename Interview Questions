@@ -118,4 +118,13 @@ permission bit in a file?
 and print the record count of each.
 119) How can we find the process name from its process id? 
 120) 
+Kubernetes architecture consists of the following main components:
 
+Master node: responsible for managing the cluster.
+Worker node: runs containers and executes tasks assigned by the master node.
+etcd: a highly available key-value store for storing cluster data.
+API server: provides the API for managing the cluster.
+Controller manager: oversees the state of the cluster and makes necessary adjustments.
+Scheduler: assigns tasks to worker nodes.
+Kubelet: communicates with the API server and ensures that containers are running as expected on the worker nodes.
+Container runtime: responsible for starting, stopping and managing containers.
